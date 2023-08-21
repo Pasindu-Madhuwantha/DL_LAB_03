@@ -1,0 +1,26 @@
+1.
+
+1D convolution is a technique used in image processing to identify edges, which indicate abrupt 
+changes in color or intensity. By sliding a specialized filter, or kernel, along rows of an image, 
+we can highlight regions of significant change.The Sobel kernel, for instance, detects both horizontal 
+and vertical changes.The process involves multiplying pixel values and summing them to create a new image,
+emphasizing potential edges. Applying a threshold to this output image turns it into a binary edge map.
+In some cases, edge visibility can be enhanced by using edge strengths to adjust the original image. 
+In essence,1D convolution helps unveil edges by pinpointing areas of abrupt transition in images.
+
+
+2.
+
+If we increase the number of epochs, validation error can rise because of overfitting. 
+Overfitting occurs when the model becomes too specific to the training data noise.
+It fits the training data perfectly but struggles with unseen data. 
+So, longer training can lead to validation error going up, as the model loses its generalization ability.
+
+
+
+
+Mini batch SGD converges faster compared to batch gradient descent due to its balance between stability and 
+randomness. Instead of using the whole dataset, mini batch SGD divides it into smaller parts, 
+making updates more frequent and efficient. 
+This speeds up learning and prevents the optimization process from getting stuck. Additionally, 
+mini batch processing can utilize parallel computing for faster computation.
