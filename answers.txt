@@ -9,7 +9,7 @@ In some cases, edge visibility can be enhanced by using edge strengths to adjust
 In essence,1D convolution helps unveil edges by pinpointing areas of abrupt transition in images.
 
 
-2.
+3.
 
 If we increase the number of epochs, validation error can rise because of overfitting. 
 Overfitting occurs when the model becomes too specific to the training data noise.
